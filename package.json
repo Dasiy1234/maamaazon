@@ -1,7 +1,7 @@
 {
-  "name": "ordering-system",
+  "name": "my-restaurant-ordering-system",
   "version": "1.0.0",
-  "description": "ordering system with admin panel",
+  "description": "Restaurant ordering system with admin panel",
   "main": "index.html",
   "scripts": {
     "build": "echo 'Static site - no build needed'",
@@ -16,5 +16,6 @@
     "admin",
     "supabase"
   ],
-  "author": "Amar Mehmedovic",
+  "author": "Your Name",
   "license": "MIT"
+}

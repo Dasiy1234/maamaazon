@@ -1,29 +1,20 @@
 {
   "name": "ordering-system",
   "version": "1.0.0",
-  "description": "ordering system",
-  "main": "index.js",
+  "description": "ordering system with admin panel",
+  "main": "index.html",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "echo 'Static site - no build needed'",
+    "start": "echo 'Static site deployed'"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.0",
-    "next": "^14.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.0.0",
-    "eslint-config-next": "^14.0.0"
+    "@supabase/supabase-js": "^2.39.0"
   },
   "keywords": [
+    "restaurant",
     "ordering",
     "admin",
     "supabase"
   ],
   "author": "Amar Mehmedovic",
   "license": "MIT"
-}
